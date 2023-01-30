@@ -1,0 +1,19 @@
+aside {
+  height: 100vh;
+  width: 16rem;
+  position: fixed;
+  left: 0;
+  background-color: #4a4a4a;
+  transition: all 0.5s ease;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+aside.collapse {
+  width: 4rem;
+  transition: all 0.5s ease;
+}

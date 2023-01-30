@@ -1,0 +1,77 @@
+.insights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.insights>div .middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.tagline {
+  font-size: 2.1rem;
+}
+
+.insights h3 {
+  margin: 1rem 0 0.6rem;
+  font-size: 1rem;
+}
+
+.insights .progress {
+  position: relative;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+
+.insights svg {
+  width: 7rem;
+  height: 7rem;
+}
+
+.insights svg circle {
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: 14;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 110;
+  stroke-dashoffset: 92;
+}
+
+.insights .Utilization svg circle {
+  stroke-dashoffset: -30;
+  stroke-dasharray: 190;
+}
+
+.insights .progress .number {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Cost */
+
+.insights .Cost svg circle {
+  stroke-dashoffset: 20;
+  stroke-dasharray: 90;
+}
+
+/* Upload */
+.insights .Referral_Distance svg circle {
+  stroke-dashoffset: 35;
+  stroke-dasharray: 110;
+}

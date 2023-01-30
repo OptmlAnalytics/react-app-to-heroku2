@@ -1,0 +1,7 @@
+.line {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  /* height: 250px; */
+  width: 100%;
+  margin-top: 0;
+}

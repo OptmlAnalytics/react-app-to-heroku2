@@ -1,0 +1,24 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 4.5rem;
+  box-shadow: none;
+  border-bottom: 2px solid lightgray;
+  left: 16rem;
+
+  display: flex;
+  align-items: center;
+  z-index: 1;
+
+  transition: all 0.5s ease;
+}
+
+.navbar-collapsed {
+  left: 4rem;
+  transition: all 0.5s ease;
+}
+
+.avatar {
+  margin-left: auto;
+}

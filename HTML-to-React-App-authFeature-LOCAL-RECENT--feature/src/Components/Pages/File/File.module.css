@@ -1,0 +1,55 @@
+.available-files {
+  margin-bottom: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  width: 30%;
+}
+
+.btn {
+  width: 100px !important;
+  height: 30px !important;
+  padding: 0 10px;
+  margin: 10px 0;
+  margin-left: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--color-primary);
+  border-radius: 0 !important;
+  border: 2px solid var(--color-primary) !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--color-primary);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.uploadFile {
+  width: 100px;
+  height: 30px;
+  padding: 0 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--color-success);
+  border: 2px solid var(--color-success);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.uploadFile input {
+  display: none;
+}
+
+.uploadFile:hover {
+  background-color: var(--color-success);
+  color: white;
+  transition: all 0.3s ease;
+}

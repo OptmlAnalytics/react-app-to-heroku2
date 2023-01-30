@@ -1,0 +1,22 @@
+.btn {
+  background-color: #12a6ad;
+  border: 1px solid transparent;
+  border-radius: 36px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  min-width: 10rem;
+  padding: .375rem 0;
+  text-align: center;
+  margin-top: -0.8rem;
+}
+
+.btn:hover {
+  box-shadow: none;
+  text-decoration: none;
+  border-color: #0f878d;
+  background-color: #109096
+}

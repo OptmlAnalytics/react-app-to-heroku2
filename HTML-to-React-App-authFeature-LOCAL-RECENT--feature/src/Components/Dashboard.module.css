@@ -1,0 +1,32 @@
+main {
+  /* display: grid; */
+  top: 4.5rem;
+  position: absolute;
+  left: 16rem;
+  width: 82.5%;
+  padding: 1rem;
+  grid-column: 2/3;
+  transition: all 0.5s ease;
+}
+main.Collpased {
+  left: 4rem;
+  width: 95.75%;
+  transition: all 0.5s ease;
+}
+
+main .loader {
+  background-color: white;
+}
+
+main .loader div {
+  background: var(--color-primary);
+}
+/* .graphContainer {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 550px;
+  width: auto;
+  gap: 1rem;
+} */
